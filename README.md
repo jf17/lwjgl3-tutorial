@@ -10,3 +10,6 @@ version available.
 
 For a table of contents you can look into the
 [wiki of this repository](https://github.com/SilverTiger/lwjgl3-tutorial/wiki).
+
+![Screenshot](/screenshot.png?raw=true)
++
