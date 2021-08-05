@@ -1,6 +1,8 @@
 # Lightweight Java Game Library 3 Tutorial
 
-<span style = "color: green"> Added Gradle support and UTF-8 text rendering(in Russian). </span>
+```diff
++ Added Gradle support and UTF-8 text rendering(in Russian). 
+```
 
 This tutorial is for anyone who wants to get started with the new version of the
 [Lightweight Java Game Library](http://www.lwjgl.org/).  
