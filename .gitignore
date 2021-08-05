@@ -1,5 +1,4 @@
-lib/
-native/
 build/
-dist/
-nbproject/
+gradle/
+.idea/
+.gradle/
