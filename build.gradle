@@ -6,9 +6,17 @@ group 'ru.jf17'
 version '1.0-SNAPSHOT'
 
 compileJava.options.encoding = 'UTF-8'
+project.ext.mainClassName = "silvertiger.tutorial.lwjgl.Main"
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
+}
+
+task run(dependsOn: classes, type: JavaExec) {
+    main = project.mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+    ignoreExitValue = true
 }
 
 import org.gradle.internal.os.OperatingSystem
